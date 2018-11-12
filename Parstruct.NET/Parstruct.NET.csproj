@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Parstruct.NET</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A lightweight library for creating simple parsers.</Description>
+    <Version>1.0.0-beta</Version>
+    <Authors>Austin Hummel</Authors>
+    <Company>Austin Hummel</Company>
+    <Product>Parstruct</Product>
+    <PackageProjectUrl>https://github.com/CodeFractal/Parstruct.NET</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CodeFractal/Parstruct.NET.git</RepositoryUrl>
+    <PackageIconUrl>https://s.gravatar.com/avatar/2eb3e29d189c888aaa61ea70b49e66e4?s=256</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>
